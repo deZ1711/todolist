@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: medium;
+}
+body {
+  box-sizing: border-box;
+  background: linear-gradient(
+    135deg,
+    hsl(273deg, 75%, 66%),
+    hsl(240deg, 73%, 65%)
+  );
+  color: hsl(258, 96%, 33%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: auto;
+}
+
+.wrapper {
+height: 80%;
+width: 30%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(258, 96%, 33%);text-decoration: underline;
+}
+
+form {
+  margin: 30px 0;
+}
+
+button, input {
+  padding: .6em;
+  border-radius: .5em;
+  border: none;
+  background-color: rgb(98, 66, 167);
+  color: rgb(212, 212, 212);
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  background-color: white;
+  width: 60%;
+  color: hsl(258, 96%, 33%);
+}
+
+button.active {
+  background-color: hsl(258, 96%, 33%);
+}
+
+.taches-list {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  width: 100%;
+  min-height: 200px;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+svg {
+  height: 1.6em;
+  width: 1.6em;
+  color: red;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 2em;
+  cursor: pointer;
+}
+
+input + label {
+  flex-grow: 1;
+}
