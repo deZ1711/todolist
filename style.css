@@ -49,7 +49,7 @@ form {
 }
 
 button, input {
-  padding: .6em;
+  padding: .4em 1em;
   border-radius: .5em;
   border: none;
   background-color: rgb(98, 66, 167);
@@ -88,12 +88,13 @@ li {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin: .5em;
 }
 
 svg {
   height: 1.6em;
   width: 1.6em;
-  color: red;
+  color: hsl(258, 96%, 33%);
   cursor: pointer;
 }
 
@@ -104,4 +105,8 @@ input[type="checkbox"] {
 
 input + label {
   flex-grow: 1;
+}
+
+button {
+  background-color: hsl(273deg, 75%, 66%)
 }

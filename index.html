@@ -14,17 +14,17 @@
       <main>
         <h1>To Do List</h1>
         <form action="" method="get">
-          <input type="text" name="title" class="addtask">
-          <button class="addtodo">Ajouter la tâche</button>
+          <input type="text" name="title" class="addtask" required>
+          <button type="submit" class="addtodo">Ajouter la tâche</button>
         </form>
         <div>
-          <button type="button" class="active" data-filter="tous">Toutes les tâches</button>
-          <button type="button" class="" data-filter="todo">Tâches à faire</button>
-          <button type="button" class="" data-filter="done">Tâches faites</button>
+          <button type="button" class="onglet active" data-filter="tous">Toutes les tâches</button>
+          <button type="button" class="onglet " data-filter="todo">Tâches à faire</button>
+          <button type="button" class="onglet " data-filter="done">Tâches faites</button>
         </div>
-        <ul class="taches-list">
+        <section class="todolist-place">
 
-        </ul>
+        </section>
       </main>
     </div>
   </div>
