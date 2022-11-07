@@ -2,12 +2,12 @@
   {
     "nbr": 1,
     "title" : "Tâche 1",
-    "doned" : false
+    "doned" : true
   },
   {
     "nbr": 2,
     "title" : "Tâche 2",
-    "doned" : false
+    "doned" : true
   },
   {
     "nbr": 3,

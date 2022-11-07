@@ -110,3 +110,8 @@ input + label {
 button {
   background-color: hsl(273deg, 75%, 66%)
 }
+
+.hide-doned .doned,
+.hide-todo li:not(.doned) {
+  display: none
+}

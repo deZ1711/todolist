@@ -28,6 +28,7 @@ class TODO {
     const checkbox = document.createElement('input')
     checkbox.setAttribute('type', 'checkbox')
     checkbox.setAttribute('id', `tache-${todo.nbr}`)
+    if(todo.doned) {checkbox.setAttribute('checked', 'true')}
 
     
     const label = document.createElement('label')
